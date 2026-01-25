@@ -10,8 +10,8 @@ for n in range(1,100): #n, в основной массе задач - цело�
 def tr(n):
   s=''
   while n>0:
-  s=str(n%3)+s
- n//=3
+      s=str(n%3)+s
+      n//=3
  return s
 res=[]
 for n in range(1,100):
@@ -29,3 +29,4 @@ for n in range(1,100):
     if r%2!=0 and r>208:
         res.append(r)
 print(min(res))
+
