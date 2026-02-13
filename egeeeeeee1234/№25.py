@@ -133,6 +133,12 @@ for x in range(33333,55555):
 
 
 
+from fnmatch import *
+for i in range(1,10**9,17):
+    if fnmatch(str(i),'12345?6?8'):
+        print(i,i//17)
+
+
 
 
 
