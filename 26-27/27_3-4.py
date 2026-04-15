@@ -60,7 +60,7 @@ def centr(k):
 #def centr(k):
  #   m = []
  #   for dot1 in k:
-  #      d = max(dist(dot1,dot2) for dot2 in k)
+  #      d = max(dist(dot1,dot2) for dot2 in k)     # ----- ф-ция для нахождения диаметра кластера
   #      m.append(d)
  #   return max(m)
 #d1=centr(a1)
