@@ -58,3 +58,5 @@
 #print(int(10000*(centr(rg1))))
 #print(int(10000*(centr(rg2))))
 #print(int(10000*(centr(rg3))))
+# а - 390205 182699
+# б - 60306
