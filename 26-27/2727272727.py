@@ -7,7 +7,7 @@ from math import dist
 ##def c(k):
 ##    c=[]
 ##    for t in k:
-##        for t1 in k:
+##        for t1 in k:                            #ф-ция для нахождения точек, образующих диаметр
 ##            d=dist(t,t1)
 ##            c.append([d,t,t1])
 ##    return max(c)[1:]
