@@ -145,7 +145,17 @@ for i in range(1,10**9,17):
 
 
 
-
+def pr_mn(x):
+    d=set()
+    i=2
+    while i**2<=x:
+        while x%i==0:
+            d.add(i)
+            x//=i
+        i+=1
+    if x>1:
+        d.add(x)
+    return d
 
 
 
