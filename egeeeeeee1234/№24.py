@@ -114,7 +114,14 @@ print(m//2)
 
 
 
-
+##m=100000
+##for l in range(len(s)):
+##   for r in range(l+m,l,-1):
+##        c=s[l:r+1]
+##        if c.count('Z')>=270:
+##            m=min(len(c),m)
+##            break
+##print(m)
 
 
 
