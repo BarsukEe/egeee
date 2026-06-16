@@ -150,7 +150,7 @@ def pr_mn(x):
     i=2
     while i**2<=x:
         while x%i==0:
-            d.add(i)
+            d.add(i)                             ##--простые множители
             x//=i
         i+=1
     if x>1:
@@ -159,6 +159,15 @@ def pr_mn(x):
 
 
 
+def p(x):
+    return x>1 and all(x%i!=0 for i in range(2,int(x**0.5)+1))
+def dl(x):
+    d=set()
+    for i in range(2,int(x**0.5)+1):                                         #--простые делители
+        if x%i==0:
+            if p(i): d.add(i)
+            if p(x//i): d.add(x//i)
+    return sorted(d)
 
 
 
